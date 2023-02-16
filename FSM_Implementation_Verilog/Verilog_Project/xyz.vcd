@@ -1,0 +1,128 @@
+$date
+	Fri Feb 17 00:00:33 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module top $end
+$var wire 1 ! Difference $end
+$var wire 1 " Borrow $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$scope module instantiation $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % x $end
+$var wire 1 ! difference $end
+$var wire 1 " borrow $end
+$scope module and_gate_in_half_sub $end
+$var wire 1 $ b $end
+$var wire 1 " out $end
+$var wire 1 % a $end
+$upscope $end
+$scope module not_gate_in_half_sub $end
+$var wire 1 # a $end
+$var wire 1 % out $end
+$upscope $end
+$scope module xor_gate_in_half_sub $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1%
+0$
+0#
+0"
+0!
+$end
+#5000
+1!
+1"
+1$
+#10000
+0"
+0%
+0$
+1#
+#15000
+0!
+1$
+#20000
+1%
+0$
+0#
+#25000
+1!
+1"
+1$
+#30000
+0"
+0%
+0$
+1#
+#35000
+0!
+1$
+#40000
+1%
+0$
+0#
+#45000
+1!
+1"
+1$
+#50000
+0"
+0%
+0$
+1#
+#55000
+0!
+1$
+#60000
+1%
+0$
+0#
+#65000
+1!
+1"
+1$
+#70000
+0"
+0%
+0$
+1#
+#75000
+0!
+1$
+#80000
+1%
+0$
+0#
+#85000
+1!
+1"
+1$
+#90000
+0"
+0%
+0$
+1#
+#95000
+0!
+1$
+#100000
+1%
+0$
+0#

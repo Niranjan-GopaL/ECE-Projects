@@ -1,0 +1,75 @@
+$date
+	Wed Feb 15 21:08:53 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module first_tb $end
+$var wire 1 ! Data_for_out $end
+$var reg 1 " Data_for_in0 $end
+$var reg 1 # Data_for_in1 $end
+$var reg 1 $ Data_for_select_line $end
+$scope module mux_component $end
+$var wire 1 " in0 $end
+$var wire 1 # in1 $end
+$var wire 1 % not_select_line $end
+$var wire 1 & o1 $end
+$var wire 1 ' o2 $end
+$var wire 1 ! out $end
+$var wire 1 $ select_line $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0'
+0&
+1%
+0$
+0#
+0"
+0!
+$end
+#50000
+0%
+1$
+#60000
+1%
+0$
+1#
+#70000
+1!
+0%
+1'
+1$
+#80000
+1&
+1!
+1%
+0'
+0$
+0#
+1"
+#90000
+0!
+0&
+0%
+1$
+#100000
+1!
+1&
+1%
+0$
+1#
+#110000
+0&
+0%
+1'
+1$
+#120000
