@@ -1,0 +1,129 @@
+$date
+	Fri Feb 17 12:00:51 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 2 ! present_state [1:0] $end
+$var wire 1 " out $end
+$var reg 1 # clk $end
+$var reg 1 $ in $end
+$var reg 1 % reset $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ in $end
+$var wire 1 % reset $end
+$var parameter 2 & A $end
+$var parameter 2 ' B $end
+$var parameter 2 ( C $end
+$var reg 1 " out $end
+$var reg 2 ) present_state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 (
+b1 '
+b0 &
+$end
+#0
+$dumpvars
+b0 )
+1%
+0$
+1#
+0"
+b0 !
+$end
+#2000
+0#
+#4000
+1#
+#5000
+b1 !
+b1 )
+0%
+#6000
+0#
+#8000
+1#
+#9000
+0"
+b10 !
+b10 )
+1$
+#10000
+0#
+#12000
+1#
+#13000
+0"
+b1 !
+b1 )
+0$
+#14000
+0#
+#16000
+1#
+#17000
+0"
+b10 !
+b10 )
+1$
+#18000
+0#
+#20000
+1#
+#22000
+b0 !
+b0 )
+0#
+1%
+0$
+#24000
+1#
+#26000
+0#
+#27000
+b10 !
+b10 )
+0%
+1$
+#28000
+1#
+#30000
+0#
+#31000
+0"
+b1 !
+b1 )
+0$
+#32000
+1#
+#34000
+0#
+#35000
+0"
+b10 !
+b10 )
+1$
+#36000
+1#
+#38000
+0#
+#39000
+0"
+b1 !
+b1 )
+0$
+#40000
+1#
+#42000
+0#
+#44000
+1#
